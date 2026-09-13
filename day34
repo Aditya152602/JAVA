@@ -1,0 +1,14 @@
+import java.util.*;
+public class Occurence {
+    static void main() {
+        int arr[] = {1,2,6,4,5,6};
+        int target = 6;
+        int store = 0;
+        for(int n:arr){
+            if (n==target){
+                store++;
+            }
+        }
+        System.out.println(store);
+    }
+}

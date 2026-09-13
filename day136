@@ -1,0 +1,18 @@
+public class CountUppercaseLowercase {
+    public static void main(String[] args) {
+        String a = "AdityANUSHREE";
+        int uppercount = 0;
+        int lowercount = 0;
+        for (int i=0;i<a.length();i++){
+            char ch = a.charAt(i);
+            if (Character.isUpperCase(ch)){
+                uppercount++;
+            }
+            else if (Character.isLowerCase(ch)){
+                lowercount++;
+            }
+        } 
+        System.out.println("Number of uppercase letters: " + uppercount);
+        System.out.println("Number of lowercase letters: " + lowercount);
+    }
+}

@@ -185,7 +185,130 @@ else if(website.endsWith(".in")){
     }
 
 }*/
+//public class FirstOccurrence {
+//    public static void main(String[] args) {
+//
+//        int arr[] = {0, 0, -1, 2, -3, 4, -5,4, 6, -7, 8};
+//        int occur = 4;
+//
+//        for (int i = 0; i < arr.length; i++) {
+//            if (arr[i] == occur) {
+//                System.out.println("Found at index: " + i);
+//                return;
+//            }
+//        }
+//
+//        System.out.println("Not Found");
+//    }
+//}
+//import java.util.*;
+//public class LastOccurrence{
+//    static void main() {
+//        int arr[] = {1, 2, 3, 4, 5, 6, 3, 9, 0};
+//        int lastocc = 3;
+//        for (int i = arr.length - 1; i >= 0; i--) {
+//            if (arr[i] == lastocc) {
+//                System.out.println("Found at index: " + i);
+//                return;
+//            }
+//        }
+//        System.out.println("Not found");
+//    }
+//}
 
+import java.util.Arrays;
+//public class CopyAnArrayIntoAnother {
+//    public static void main(String[] args) {
+//        int arr[] = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+//        int arr1[] = new int[arr.length];
+//
+//        for (int i = 0; i < arr.length; i++) {
+//            arr1[i] = arr[i];
+//        }
+//
+//        System.out.println("Copied array: ");
+//        for (int i = 0; i < arr1.length; i++) {
+//            System.out.print(arr1[i] + " ");
+//        }
+//    }
+//}
+
+
+
+//public class CompareTwoArrays{
+//    static void main() {
+//        int arr[] = {1,2,3,4,5,6,7,8,9};
+//        int arr1[] = {1,2,3,4,5,6,7,8,9};
+//        if (Arrays.equals(arr, arr1)){
+//            System.out.println("Equal");
+//        }
+//        else{
+//            System.out.println("Not Equal");
+//        }
+//    }
+//}
+
+
+
+//public class SwapFirstAndLastElement {
+//    public static void main(String[] args) {
+//
+//        int arr[] = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+//
+//        int temp = arr[0];
+//        arr[0] = arr[arr.length - 1];
+//        arr[arr.length - 1] = temp;
+//
+//        for (int i = 0; i < arr.length; i++) {
+//            System.out.print(arr[i] + " ");
+//        }
+//    }
+//}
+
+import java.util.Arrays;
+
+//public class SwapAdjacentElements {
+//    public static void main(String[] args) {
+//
+//        int arr[] = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+//
+//        for (int i = 0; i < arr.length - 1; i += 2) {
+//            int temp = arr[i];
+//            arr[i] = arr[i + 1];
+//            arr[i + 1] = temp;
+//        }
+//
+//        System.out.println(Arrays.toString(arr));
+//    }
+//}
+
+//public class Compare{
+//    static void main() {
+//        String a = "Anushree";
+//        String b = "Anushree1";
+//        if (a.compareTo(b) == 0) {
+//            System.out.println("Equal");
+//        } else {
+//            System.out.println("Not Equal");
+//        }
+//
+//    }
+//
+//}
+//
+//public class Equals{
+//    static void main() {
+//        String a = "Anushree";
+//        String b = "Anushree1";
+//        if (a.equals(b)) {
+//            System.out.println("Equal");
+//        } else {
+//            System.out.println("Not Equal");
+//        }
+//
+//    }
+//
+//}
 
 
 

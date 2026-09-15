@@ -308,6 +308,75 @@ import java.util.Arrays;
 //
 //    }
 //
+//}//import java.util.*;
+//public class RemoveSpacesFromString{
+//    static void main() {
+//        String a="banana is my favourite fruit";
+//        char c = ' ';
+//        for (int i = 0; i < a.length(); i++) {
+//            if (a.charAt(i)!=c) {
+//                System.out.print(a.charAt(i));
+//
+//
+//            }
+//        }
+//    }
+//}
+
+//
+//import java.util.*;
+//public class RemoveVowelsFromString{
+//    static void main() {
+//        String a="banana is my favourite fruit";
+//        String c ="aeiou";
+//        for (int i = 0; i < a.length(); i++) {
+//            if (c.indexOf(a.charAt(i)) == -1) {
+//                System.out.print(a.charAt(i));
+//
+//
+//            }
+//        }
+//    }
+//}
+
+
+//public class FindLongestWordsInString {
+//    public static void main(String[] args) {
+//        String str = "The quick brown fox jumps over the lazy dog";
+//        String[] words = str.split(" ");
+//        int maxLength = 0;
+//
+//        for (String word : words) {
+//            if (word.length() > maxLength) {
+//                maxLength = word.length();
+//            }
+//        }
+//
+//        System.out.println("Longest word(s) in the string:");
+//        for (String word : words) {
+//            if (word.length() == maxLength) {
+//                System.out.println(word);
+//            }
+//        }
+//    }
+//}
+
+//public class FindSmallestWordInString {
+//    static void main() {
+//        String str = "The quick brown fox jumps over the lazy dog";
+//        String[] words = str.split(" ");
+//        String smallestWord = words[0];
+//
+//        for (String word : words) {
+//            if (word.length() < smallestWord.length()) {
+//                smallestWord = word;
+//            }
+//        }
+//
+//        System.out.println("Smallest word in the string: " + smallestWord);
+//
+//    }
+//
 //}
 
 

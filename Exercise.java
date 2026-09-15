@@ -247,3 +247,85 @@ import java.util.Arrays;
 //        System.out.println(Arrays.toString(arr));
 //    }
 //}
+//public class RemoveAgivenElement{
+//    static void main() {
+//
+//        int arr[] = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+//        int elementToRemove = 5;
+//        int newSize = arr.length - 1;
+//
+//        for (int i = 0; i < arr.length; i++) {
+//            if (arr[i] == elementToRemove) {
+//                for (int j = i; j < arr.length - 1; j++) {
+//                    arr[j] = arr[j + 1];
+//                }
+//                break;
+//            }
+//        }
+//
+//        System.out.println("Array after removing " + elementToRemove + ":");
+//        for (int i = 0; i < newSize; i++) {
+//            System.out.print(arr[i] + " ");
+//        }
+//
+//    }
+//}
+
+// Import the Arrays utility class to enable array formatting for printing
+import java.util.Arrays;
+
+// Declare a public class named MoveAllZerosToEnd
+//public class MoveAllZerosToEnd {
+//
+//    // Declare a public static method named moveZeros that takes an integer array 'nums' as a parameter
+//    public static void moveZeros(int[] nums) {
+//
+//        // Initialize an integer variable 'zeroIndex' to 0 to track where the next non-zero number should be placed
+//        int zeroIndex = 0;
+//
+//        // Start a for loop that iterates through every index 'i' from 0 to the end of the 'nums' array
+//        for (int i = 0; i < nums.length; i++) {
+//
+//            // Check if the current array element at index 'i' is not equal to zero
+//            if (nums[i] != 0) {
+//
+//                // Declare a temporary integer variable 'temp' and store the value currently at 'zeroIndex' (which is a zero)
+//                int temp = nums[zeroIndex];
+//
+//                // Overwrite the value at 'zeroIndex' with the non-zero value found at the current index 'i'
+//                nums[zeroIndex] = nums[i];
+//
+//                // Place the original value of 'zeroIndex' (stored in 'temp') into the current index 'i' to complete the swap
+//                nums[i] = temp;
+//
+//                // Increment 'zeroIndex' by 1 to advance the pointer to the next available position for a non-zero number
+//                zeroIndex++;
+//
+//                // Close the if statement block
+//            }
+//
+//            // Close the for loop block
+//        }
+//
+//        // Close the moveZeros method block
+//    }
+//
+//    // Declare the main method which serves as the execution entry point for the Java application
+//    public static void main(String[] args) {
+//
+//        // Initialize an integer array named 'nums' with the test values 0, 1, 0, 3, and 12
+//        int[] nums = {0, 1, 0, 3, 12};
+//
+//        // Call the moveZeros method and pass the 'nums' array to modify its elements in-place
+//        moveZeros(nums);
+//
+//        // Print the string "Result: " concatenated with a human-readable string representation of the modified 'nums' array
+//        System.out.println("Result: " + Arrays.toString(nums));
+//
+//        // Expected Output: [1, 3, 12, 0, 0] (This line represents the expected console output after execution)
+//
+//        // Close the main method block
+//    }
+//
+//// Close the MoveAllZerosToEnd class block
+//}

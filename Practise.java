@@ -424,7 +424,48 @@ public class ReverseEveryWordInSentenceString {
     }
 
 }
+public class Palindrome {
 
+    public static boolean isPalindrome(String str) {
+
+        int left = 0;
+        int right = str.length() - 1;
+
+        while (left < right) {
+
+            if (!Character.isLetterOrDigit(str.charAt(left))) {
+                left++;
+                continue;
+            }
+
+            if (!Character.isLetterOrDigit(str.charAt(right))) {
+                right--;
+                continue;
+            }
+
+            if (Character.toLowerCase(str.charAt(left)) !=
+                    Character.toLowerCase(str.charAt(right))) {
+                return false;
+            }
+
+            left++;
+            right--;
+        }
+
+        return true;
+    }
+
+    public static void main(String[] args) {
+
+        String str = "m@a#d$a%m";
+
+        if (isPalindrome(str)) {
+            System.out.println("Is Palindrome");
+        } else {
+            System.out.println("Is not Palindrome");
+        }
+    }
+}
 
 
 
